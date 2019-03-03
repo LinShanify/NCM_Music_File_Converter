@@ -1,18 +1,16 @@
-# ncmdump
+# NCM_Music_File_Converter
 
-## 简介
+## Fork from [ yoki123/ncmdump](https://github.com/yoki123/ncmdump)
+Convert Netease Cloud Music proprietary ncm file format back to original music file formate (mp3 or flac)
+网易云音乐ncm文件转换成原始音乐文件 (mp3 或 flac)
 
-本项目完全参考[anonymous5l/ncmdump](https://github.com/anonymous5l/ncmdump)实现，起初是为了能在windows下快速编译和运行
 
+## How to use
+- Download [NCM_Converter](https://github.com/LinShanify/NCM_Music_File_Converter/releases/)
+  - Windows: Drag and Drop ncm file or folder on `NCM_Converter`
+  - Mac/Linux: Terminal Run `./NCM_Converter [files/dirs]`
+  
+- 下载可执行程序[NCM_Converter](https://github.com/LinShanify/NCM_Music_File_Converter/releases/)，
+  - Windows: 将ncm文件或文件夹拖到执行程序`NCM_Converter`上即可
+  - Mac/Linux : 运行命令 `./NCM_Converter [files/dirs]`
 
-## 如何使用？
-
-- 下载可执行程序[ncmdump](https://github.com/yoki123/ncmdump/releases)，将ncm文件或文件夹拖到执行程序`ncmdump`上即可
-- 也可以使用命令
-
-    ncmdump [files/dirs]
-
-## 感谢
-
-- [@anonymous5l](https://github.com/anonymous5l)提供的原版ncmdump
-- [@eternal-flame-AD](https://github.com/eternal-flame-AD)提供的flac封面写入和目录自动寻找ncm文件
