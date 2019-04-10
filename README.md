@@ -1,4 +1,4 @@
-# NCM_Music_File_Converter
+# Netease_Music_Converter
 
 ## Fork from [ yoki123/ncmdump](https://github.com/yoki123/ncmdump)
 Convert Netease Cloud Music proprietary ncm file format back to original music file formate (mp3 or flac)
